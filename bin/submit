@@ -1,0 +1,7 @@
+spark-submit \
+  --class spark.sample.Main \
+  --master local[4] \
+  --driver-memory 2g \
+  --packages com.databricks:spark-csv_2.10:1.2.0 \
+  ../target/scala-2.10/sparksample_2.10-1.0.jar
+
