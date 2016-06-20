@@ -10,7 +10,7 @@ import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
-class TopicClassifierTest extends FunSuite
+class SparkExampleTest extends FunSuite
   with BeforeAndAfterEach with BeforeAndAfterAll
   with DefaultSparkContext
   with Logging {
